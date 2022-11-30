@@ -1,0 +1,1018 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="typing.css">
+    <link rel="shortcut icon" type="image" href="image/titleImg.JPG">
+    <title>IrvingFineArtsAcademy</title>
+    <style>
+        /* The grid: Four equal columns that floats next to each other */
+
+        @media screen and (max-width:800px) {
+            .column {
+                float: left;
+                width: 50%;
+                padding: 10px;
+            }
+        }
+
+        @media screen and (min-width:801px) {
+            .column {
+                float: left;
+                width: 25%;
+                padding: 10px;
+            }
+        }
+
+        /* Style the images inside the grid */
+        .column img {
+            opacity: 0.95;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .column img:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* The expanding image container (positioning is needed to position the close button and the text) */
+        .container-ballet {
+            position: relative;
+            display: none;
+        }
+
+        /* Expanding image text */
+        #imgtext {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+        }
+
+        /* Closable button inside the image */
+        .closebtn {
+            position: absolute;
+            top: -40px;
+            right: 39px;
+            color: red;
+            font-size: 50px;
+            cursor: pointer;
+        }
+
+
+        .bal-bg {
+
+            position: relative;
+        }
+
+        .bal-bg {
+
+            height: 250px;
+
+        }
+
+        .bal-bg p {
+            z-index: 1000;
+            position: absolute;
+            color: white;
+            top: 9rem;
+            text-align: center;
+        }
+
+        #bal-img-1 {
+            background-image: url(image/ballet\ dance-1.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border-left: 15px solid white;
+
+            border-right: 15px solid white;
+        }
+
+        #bal-img-2 {
+            background-image: url(image/ballet\ dance-2.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border-left: 15px solid white;
+            border-right: 15px solid white;
+
+        }
+
+        #bal-img-3 {
+            background-image: url(image/ballet\ dance-3.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border-left: 15px solid white;
+            border-right: 15px solid white;
+
+        }
+
+        #bal-img-4 {
+            background-image: url(image/ballet\ dance-4.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            border-left: 15px solid white;
+            border-right: 15px solid white;
+
+        }
+    </style>
+
+</head>
+
+<body class="avenirR">
+
+    <div class="home-pad">
+        <div id="border1">
+            <div id="border2" class="bg-white">
+                <!-- mobile header icon -->
+
+                <div id="mohead-icon"> <a href="https://www.facebook.com/rbrmuzik/"> <i
+                            class="bi bi-facebook rounded-circle p-1 "></i> </a>
+                    <a href="https://www.youtube.com/channel/UCA8V-uIfkL8SwNrrSTzxmfA"> <i
+                            class="bi bi-youtube rounded-circle p-1"></i></a>
+                    <a
+                        href="https://www.instagram.com/rbrmuzik/?utm_source=ig_profile_share&igshid=1uuylct2kp4ti&hl=en">
+                        <i class="bi bi-instagram rounded-circle p-1"></i> </a>
+                    <a href="https://www.linkedin.com/company/rbr-muzik"> <i
+                            class="bi bi-linkedin rounded-circle p-1"></i>
+                    </a>
+                    <a href=""> <i class="bi bi-twitter text-white rounded-circle p-1"></i> </a>
+                    <a href="https://goo.gl/maps/L3XXRkxmN916BxXF8"> <i
+                            class="bi bi-geo-alt-fill rounded-circle p-1"></i>
+                    </a>
+                </div>
+
+
+
+                <!-- Header -->
+                <div class=" sticky-top georgia-font">
+                    <header class="d-none d-xl-block">
+                        <!-- <a href="index.html"> <img src="image/logo.png" alt=""> </a> -->
+                        <a href="index.html"> <img src="image/logo.png" alt=""> </a>
+                        <div class="social-icon ">
+                            <a class="num-mail" href="info@irvingfinearts.com"> <i class="bi bi-envelope-fill rounded-circle  "></i><b>info@irvingfinearts.com</b>
+                            </a>
+                            <a class="num-mail" href="tel:(214) 446-5225"> <i class="bi bi-telephone-forward-fill rounded-circle "></i><b> (214) 446-5225 </b>
+                            </a>
+                            <a href="https://www.facebook.com/rbrmuzik/"> <i class="bi bi-facebook rounded-circle "></i>
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCA8V-uIfkL8SwNrrSTzxmfA"> <i
+                                    class="bi bi-youtube rounded-circle"></i></a>
+                            <a
+                                href="https://www.instagram.com/rbrmuzik/?utm_source=ig_profile_share&igshid=1uuylct2kp4ti&hl=en">
+                                <i class="bi bi-instagram rounded-circle"></i> </a>
+                            <a href="https://www.linkedin.com/company/rbr-muzik"> <i
+                                    class="bi bi-linkedin rounded-circle"></i>
+                            </a>
+                            <a href="#"> <i class="bi bi-twitter text-white rounded-circle p-1"></i> </a>
+                            <a href="https://goo.gl/maps/L3XXRkxmN916BxXF8"> <i
+                                    class="bi bi-geo-alt-fill rounded-circle"></i>
+                            </a>
+
+                        </div>
+                    </header>
+
+                    <!-- nav bar -->
+                    <nav id="mynavbar" class="navbar navbar-expand-xl navbar-light ">
+                        <div class="container-fluid ">
+
+                            <div class="d-flex d-xl-none"> <a href="index.html"> <img src="image/logo.png"
+                                id="mobile-head-logo" class="img-r " alt=""> </a>
+                    </div>
+
+                            <!-- <div class="d-flex d-xl-none"> <a href="index.html"> <img src="image/logo.png" id="mobile-head-logo"
+                                class="img-r " alt=""> </a>
+                    </div> -->
+
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="mobile-nav-set">
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+                                    <div class="bgdblack">
+                                        <li class="nav-item ">
+                                            <a class=" nav-link " aria-current="page" href="index.html">HOME</a>
+                                        </li>
+                                    </div>
+
+                                    <div class="bgdblack">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                ABOUT US
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="director.html">MEET THE DIRECTOR</a>
+                                                <!-- <a class="dropdown-item" href="whyChoose.html">OUR FACULTY</a> -->
+                                                <a class="dropdown-item" href="whyChoose.html">WHY CHOOSE US</a>
+                                                <!-- <a class="dropdown-item" href="suzuki.html">ABOUT SUZUKI</a> -->
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div class="bgdblack">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                MUSIC LESSONS </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="piano.html">PIANO LESSONS</a>
+                                                <a class="dropdown-item" href="guitar.html">GUITAR LESSONS</a>
+                                                <a class="dropdown-item" href="violin.html">VIOLIN LESSONS</a>
+                                                <a class="dropdown-item" href="drum.html">DRUM LESSONS</a>
+                                                <a class="dropdown-item" href="cello.html">CELLO LESSONS</a>
+                                                <a class="dropdown-item" href="voice.html">VOICE LESSONS</a>
+
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div class="bgdblack navBactive">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                DANCE LESSONS
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="ballet.html">BALLET LESSONS</a>
+
+                                            </div>
+                                        </li>
+                                    </div>
+
+                                    <div class="bgdblack">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROGRAMS</a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="earlyChild.html">EARLY CHILDHOOD CLASSES</a>
+                                                <a class="dropdown-item" href="adult.html">ADULT CLASSES</a>
+                                                <a class="dropdown-item" href="privateMusic.html">PRIVATE MUSIC LESSONS</a>
+                                                <a class="dropdown-item" href="groupVoice.html">GROUP VOICE</a>
+                                                <a class="dropdown-item" href="art.html">ART CLASSES</a>
+                                                <a class="dropdown-item" href="summer.html">SUMMER CAMPS </a>
+            
+                                            </div>
+                                        </li>
+                                    </div>
+
+
+                                    <div class="bgdblack">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="theatre.html">DRAMA</a>
+                                        </li>
+                                    </div>
+
+                                    <div class="bgdblack">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="testimonial.html">TESTIMONIALS</a>
+                                        </li>
+                                    </div>
+                                    <div class="bgdblack">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="https://irvingfineartsacademy.opus1.io/w/trial">REGISTER ONLINE</a>
+                                        </li>
+                                    </div>
+
+
+                                    <div class="bgdblack">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="contact.html"><span style="white-space: nowrap;">
+                                                    CONTACT US </span></a>
+                                        </li>
+                                    </div>
+                                </ul>
+
+
+                            </div>
+                        </div>
+
+                    </nav>
+
+                </div>
+
+
+                <!-- side hover button -->
+                <div id="mySidenav" class="sidenav">
+                    <a href="tel:2144465225" id="call-us"><i class="bi bi-telephone-fill"><span
+                                style="font-size: 15px;"> Call Us
+                            </span></i>
+                    </a>
+                    <a href="sms:2144465225" id="text-us"> <i class="bi bi-chat-right-dots"><span
+                                style="font-size: 15px;"> Text
+                                Us</span>
+                        </i></a>
+                    <a href="contact.html" id="req-info"><i class="bi bi-info-lg"><span style="font-size: 15px;">
+                                Request Info
+                            </span> </i></a>
+
+                </div>
+
+                <!-- mobile sticky button -->
+                <div class=" mobutton">
+                    <a class="Mbutton2" href="contact.html"><div> <i class="bi bi-info-circle-fill"></i> </div></a>
+                    <a class="Mbutton1" href="tel:2144465225"><div> <i class="bi bi-telephone-fill"></i> </div></a>
+                    <a class="Mbutton3" href="sms:2144465225"><div> <i class="bi bi-chat-dots-fill"></i></div></a>
+                </div>
+
+
+
+
+
+                <!--automatic  Pop up -->
+                <div class="container ">
+                    <div class="login-popup">
+                        <div class="box">
+                            <div class="img-area">
+                                <div class="img">
+                                </div>
+                                <h1 style="color: white;" class="text-center  georgia-font"><b><i> Welcome <br> To <br>
+                                            Irving Fine
+                                            Arts
+                                            Academy </i></b></h1>
+                            </div>
+                            <div class="pop-form">
+                                <div onclick="showSideOffer()" id="show-off" class="close">&times;</div>
+                                <h1>Request Information</h1>
+                                <form action="mail3.php" method="POST">
+                                    <div class="form-group ">
+                                        <input name="name" type="text" placeholder="name" class="pop-form-control">
+                                    </div>
+                                    <div class="form-group ">
+                                        <input name="email" type="email" placeholder="Email" class="pop-form-control">
+                                    </div>
+                                    <div class="form-group ">
+                                        <input name="mobileNo" type="text" placeholder="Mobile no."
+                                            class="pop-form-control">
+                                    </div>
+                                    <div class="form-group ">
+                                        <select name="dropdown" class="pop-form-control dropdown-toggle "
+                                            aria-label="Default select example">
+                                            <option value="" disabled selected>Lesson you are in interested in </option>
+                                            <option value="Piano">Piano</option>
+                                            <option value="Voice">Voice</option>
+                                            <option value="Violin">Violin</option>
+                                            <option value="Cello">Cello</option>
+                                            <option value="Guitar">Guitar</option>
+                                            <option value="Drum">Drum</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" name="submit" class="btn">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- click pop up -->
+
+                <div id="popup-cont" class="container ">
+                    <div class="login-popup2">
+                        <div class="box2">
+                            <div class="img-area">
+                                <div class="img">
+                                </div>
+                                <h1 style="color: white;" class="text-center  georgia-font"><b><i> Welcome <br> To <br>
+                                            Irving Fine
+                                            Arts
+                                            Academy </i></b></h1>
+                            </div>
+                            <div class="pop-form">
+                                <div onclick="closePopup()" id="close-pop" class="close">&times;</div>
+                                <h1>Request Information</h1>
+                                <form action="mail3.php" method="POST">
+                                    <div class="form-group ">
+                                        <input name="name" type="text" placeholder="name" class="pop-form-control">
+                                    </div>
+                                    <div class="form-group ">
+                                        <input name="email" type="email" placeholder="Email" class="pop-form-control">
+                                    </div>
+                                    <div class="form-group ">
+                                        <input name="mobileNo" type="text" placeholder="Mobile no."
+                                            class="pop-form-control">
+                                    </div>
+                                    <div class="form-group ">
+                                        <select name="dropdown" class="pop-form-control  "
+                                            aria-label="Default select example">
+                                            <option value="" disabled selected>Lesson you are in interested in </option>
+                                            <option value="Piano">Piano</option>
+                                            <option value="Voice">Voice</option>
+                                            <option value="Violin">Violin</option>
+                                            <option value="Cello">Cello</option>
+                                            <option value="Guitar">Guitar</option>
+                                            <option value="Drum">Drum</option>
+                                        </select>
+                                    </div>
+                                    <button type="submit" name="submit" class="btn">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div onclick="clickPopup()" id="side-offer">
+                    <p> Get Exclusive Offer</p>
+                </div>
+
+
+                <script>
+                    function showSideOffer() {
+                        document.getElementById("side-offer").style.display = "block"
+                    }
+                </script>
+
+
+                <!-- click pop up container script -->
+                <script>
+
+                    function clickPopup() {
+                        document.getElementById("popup-cont").style.display = "block"
+                    }
+
+                    function closePopup() {
+                        document.getElementById("popup-cont").style.display = "none"
+                    }
+                </script>
+
+
+
+
+
+                <!-- second side offer -->
+                <!-- <div onclick="clickPopup()" id="side-offer2">
+        <p> Get Exclusive Offer</p>
+    </div> -->
+
+
+
+
+                <!-- Zoom effect carousel -->
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner ">
+                      
+                        <div class="carousel-item active zoom-effect2">
+                            <img src="image/ballet header.jpg" class="d-block  " alt="...">
+                            <div class=" caption-header">
+                                <h5><b> Ballet Dance</b></h5>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button> -->
+                </div>
+                <!-- <div class="container-fluid black-bg">
+                    <div class="row justify-content-evenly">
+                        <div class="col-lg-7 pt-4 pt-lg-5 ballet-summer ">
+                            <p>We are open for small in person classes with safety measures in place. Limited slots. ENROLL today!! </p>
+                        </div>
+                        <div class="col-lg-5 pt-3 pb-5 pt-lg-5 text-center">
+                            <a href="summer.html"><button class="summer-btn">SUMMER CAMPS</button></a><br>
+                            <a href="contact.html"><button class="book-btn">BOOK YOUR TRIAL CLASS</button></a>
+                        </div>
+                    </div>
+                </div> -->
+                <br>
+                <div class="container mt-4 mt-lg-5 ">
+                    <div class="row d-flex justify-content-evenly learn-music">
+                        <div class="col-11 col-lg-5 wrapper mx-lg-2">
+                            <iframe src="https://www.youtube.com/embed/zO3KhGXYbtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                        </div>
+                        <div class="col-11 col-lg-5 wrapper mx-lg-2 mt-3 mt-lg-0">
+                            <iframe src="https://www.youtube.com/embed/XyI4c0bnClE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <a class="text-deco-none" href="contact.html"> <button class="btn-lg mt-5 mb-5" type="button">
+                                Contact
+                                Us</button></a>
+                    </div>
+                </div>
+
+                <!-- about irving ballet -->
+
+                <div class="container-fluid">
+                    <h1 data-aos="zoom-in" data-aos-offset="100" data-aos-duration="1200"
+                        class="georgia-font text-center text-black hr-three mt-lg-4"><b> Why Choose Irving Ballet School?</b></h1>
+                    <hr class="three mt-2 mt-lg-3 mb-4 mb-lg-5">
+
+                    <div class="row justify-content-evenly mt-4">
+                        <div id="bal-img-1" class="bal-bg col-12 col-sm-9 col-md-6 col-lg-3 ">
+
+
+                            <p>
+                                Our Dura- Dance spung flooring creates the perfect environment to nurture dancers
+                            </p>
+
+
+                        </div>
+                        <div id="bal-img-2" class="bal-bg col-12 col-sm-9 col-md-6 col-lg-3  mt-5 mt-md-0">
+                            <p>All students age 2+ are invited to perform on the multi-million dollar concert stage of
+                                Carpenter Hal
+                            </p>
+                        </div>
+                        <div id="bal-img-3" class="bal-bg col-12 col-sm-9 col-md-6 col-lg-3  mt-5 mt-lg-0">
+                            <p>
+                                We are honored to be a liscenced MTI theater, having produced 7 sold out shows</p>
+                        </div>
+                        <div id="bal-img-4" class="bal-bg col-12 col-sm-9 col-md-6 col-lg-3  mt-5 mt-lg-0">
+                            <p>
+                                We surpass all CDC guidelines, including temperature checks and small class sizes</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="container size-arr roboto-size">
+                    <h1 class="georgia-font text-center hr-three mt-5 text-black"><b>About Irving Ballet School</b></h1>
+                    <hr class="three mt-2 mt-lg-3 mb-4 mb-lg-5">
+                    <h2 class="georgia-font"><b> Our Studio </b></h2>
+                    <div class="row mt-4 mt-lg-5 mb-4 mb-lg-5">
+                        <div class="col-12">
+                            <img src="image/studio main.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p> Nurture the beat in your feet! Our award winning faculty, and beautiful new
+                                professional Dura-Dance
+                                sprung flooring will create the perfect environment to nurture dancers from ages 3 to
+                                adult. Irving
+                                Ballet School offers a dance style for everyone, from classical ballet to salsa and
+                                family style
+                                ballroom. Let the joy of classical ballet begin for your child as we introduce them to
+                                ballet
+                                fundamentals including body alignment, basic ballet technique, terminology and
+                                musicality. Self
+                                esteem, discipline and confidence will be nurtured in every student to allow them to
+                                flourish to
+                                reach their fullest potential as artists. </p>
+                        </div>
+                    </div>
+                    <h3 class="georgia-font mt-4 mt-lg-5 mb-2 mb-lg-4"><b>We believe</b></h3>
+                    <br>
+                    <h4 class="georgia-font"><i class="bi bi-chevron-right icon-bg rounded-circle"></i>strength</h4>
+                    <p>Our spirits are uplifted and strengthened when we move our bodies. We are born naturally rythmic
+                        from the
+                        first beat of our heart. It is up to us to nurture and strengthen our rythm and our musical
+                        souls. Dance,
+                        movement from the beginning of time has been used to express joy and hope around the world.
+                        Irving Ballet
+                        works to use movement and dance to unite our community and our world.</p> <br>
+
+                    <h4 class="georgia-font"><i class="bi bi-chevron-right icon-bg rounded-circle"></i>Discipline</h4>
+                    <p> Through support, nurturing and encouragement, the fine art of classical ballet and other dance
+                        styles is
+                        nutured
+                        in a loving environment. All shapes, all ages, all levels. We grow stronger together.</p>
+                    <br>
+
+                    <h4 class="georgia-font"><i class="bi bi-chevron-right icon-bg rounded-circle"></i>Integrity</h4>
+                    <p>We strive to nurture the dancers in the highest form of Classical Ballet formation, taking time
+                        and not
+                        rushing students through. With our stellar faculty and high standards, we strive to build a
+                        solid company of
+                        dancers who encourage and inspire each other to reach their fullest potential as artists.</p>
+                    <br><br>
+
+
+
+                </div>
+
+
+                <!-- gallery container 1 -->
+
+                <div class="container">
+
+                    <div class="row d-flex justify-content-center">
+                        <!-- The grid: four columns -->
+                        <div class="col-12 col-lg-10">
+                            <!-- The expanding image container -->
+                            <div class="container-ballet">
+                                <!-- Close the image -->
+                                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+                                <!-- Expanded image -->
+                                <img id="expandedImg"
+                                    style="width:60%;height: auto;display: block; margin-left: auto;margin-right: auto;">
+
+                                <!-- Image text -->
+                                <div id="imgtext"></div>
+                            </div>
+                            <div class="column">
+                                <img src="image/ballet-1920x1080-res300-400x284.jpg" class="img-fluid"
+                                    onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="image/RBR-High-RES-0066-400x284-1-400x284.jpg" class="img-fluid"
+                                    onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="image/ballet52.jpg" class="img-fluid" onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="image/ballet53.jpg" class="img-fluid" onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="image/ballet54.png" class="img-fluid" onclick="myFunction(this);">
+                            </div>
+
+                            <div class="column">
+                                <img src="image/ballet56.jpg" class="img-fluid" onclick="myFunction(this);">
+                            </div>
+                            <div class="column">
+                                <img src="image/ballet57.jpg" class="img-fluid" onclick="myFunction(this);">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <br>
+
+                <div class="container size-arr2 roboto-font">
+                    <br>
+                    <h1 class="georgia-font text-center hr-four"><b>Current Classes</b></h1>
+                    <hr class="four mt-2 mt-lg-4 mb-5 mb-lg-5">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12">
+                            <img src="image/ballet-img.jpg" class="img-r" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <h2 class="text-center play-font">Tu-tu’s for Two’s/Three’s.</h2>
+
+                    <h3 class="text-center dancing-font">Beginner Level – Ages 2 – 3</h3>
+                    <p class="text-center">A fun introduction to ballet for dancers age 2-3. Young dancers learn
+                        foundational ballet with scarves and free movement. Caregivers invited to enjoy class with
+                        dancer.
+
+                    </p>
+
+                    <br>
+                    <div class="row d-flex justify-content-center mt-3 mt-lg-5">
+                        <div class="col-12">
+                            <img src="image/ballet-img2.jpg" class="img-r" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <h2 class="text-center play-font">Pre Ballet I</h2>
+
+                    <h3 class="text-center dancing-font">Beginner Level – Ages 4 – 5</h3>
+                    <p class="text-center">The perfect introduction to ballet basics, with no previous training
+                        required.
+
+                    </p>
+
+                    <br>
+                    <div class="row d-flex justify-content-center mt-3 mt-lg-5">
+                        <div class="col-12">
+                            <img src="image/ballet-img-3.jpg" class="img-r" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <h2 class="text-center play-font">Pre Ballet II</h2>
+
+                    <h3 class="text-center dancing-font">Beginner Level – Ages 6 – 7</h3>
+                    <p class="text-center">Ballet basic steps, lyrical movement and flexibility. Pre-ballet I encouraged
+                        as
+                        prerequisite but not required.
+                    </p>
+
+                    <br>
+                    <div class="row d-flex justify-content-center mt-3 mt-lg-5">
+                        <div class="col-12">
+                            <img src="image/ballet-img4.jpg" class="img-r" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <h2 class="text-center play-font">Beginner Ballet I</h2>
+
+                    <h3 class="text-center dancing-font">Beginner Level – Ages 8 – 11</h3>
+                    <p class="text-center">No prior experience needed. Pre-ballet II encouraged but not required.
+                        Students are
+                        instructed in the study of ballet basics, positions and flexibility.
+
+                    </p>
+
+                    <br>
+                    <div class="row d-flex justify-content-center mt-3 mt-lg-5">
+                        <div class="col-12">
+                            <img src="image/ballet-img5.jpg" class="img-r" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <h2 class="text-center play-font">Beginner Ballet II</h2>
+
+                    <h3 class="text-center dancing-font">Beginner Level – Ages 9 – 11</h3>
+                    <p class="text-center">1+ prior experience needed. Beginner-ballet I encouraged but not required.
+                        Students are
+                        instructed in the study of ballet basics, positions and flexibility.
+
+                    </p>
+
+                    <br>
+                    <div class="row d-flex justify-content-center mt-3 mt-lg-5">
+                        <div class="col-12">
+                            <img src="image/ballet-img6.jpg" class="img-r" alt="">
+                        </div>
+                    </div>
+                    <br>
+                    <h2 class="text-center play-font">Adult Ballet</h2>
+
+                    <h3 class="text-center dancing-font">18 and Up</h3>
+
+
+
+                </div>
+
+                <br><br>
+                <!-- testimonial claim -->
+
+                <div class="container-fluid mb-lg-3">
+
+                    <div class="row d-flex justify-content-center claim1 text-white play-font">
+                        <div class="col-12 col-lg-6 px-4 px-lg-2">
+                            <h6 style="color: rgb(255, 0, 0);  text-shadow: 0px 0px 1px #ff0000; font-size: 20px;"><i>
+                                    It's easy to
+                                    take the first step</i></h6>
+                            <h2 class="mt-3 mb-4"><i> Ready to start? You have nothing to lose.</i></h2>
+                            <h5 class="text-arr">Sign up is easy and parent-friendly, with helpful staff at the
+                                front
+                                desk seven days a week to serve
+                                you. Because we only offer lessons on a month-to-month basis, there are no large upfront
+                                payments,
+                                no complicated contracts, no annual material or performance fees, and no semester
+                                minimums.</h5>
+
+                            <a href="contact.html"> <button type="button" class="btn btn-lg claim-btn">Request Info</button> </a>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-5 col-xl-3 text-center">
+                            <h2 class="mb-lg-4 mt-4 mt-lg-0 join-news"><b> Join Our Newslatter</b></h2>
+
+                            <form action="mail3.php" method="POST" class="form px-3 ">
+
+                                <div class="mb-3 mt-3">
+                                    <input name="name" type="text" class="form-control p-2 rounded-50"
+                                        id="exampleFormControlInput1" placeholder="Full name" required>
+                                </div>
+
+                                <div class="mb-3">
+
+                                    <input name="email" type="email" class="form-control p-2"
+                                        id="exampleFormControlInput1" placeholder="Email" required>
+                                </div>
+                                <div class="mb-3">
+
+                                    <input name="mobileNo" type="text" class="form-control p-2"
+                                        id="exampleFormControlInput1" placeholder="phone no." required>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <button type="submit" name="submit" id="contact-button" class="btn-lg "
+                                            type="button">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <footer>
+                    <div class="container arial-font foot-font-size pt-1 pt-lg-4 mt-5">
+                        <div class="row justify-content-evenly ">
+                            <div class="col-12 col-lg-4 d-block icon-info">
+                                <img id="foot-logo" src="image/logo.png" class="img-fluid" alt="">
+                                <p>We are the only full service music school in Irving, Texas that offers music
+                                    lessons
+                                    in Piano,
+                                    Guitar, Violin, Drums, Voice, Cello, Banjo, Mandolin, and Ukulele all in ONE
+                                    location! </p>
+
+                                <h3 class="mt-4 mt-lg-4 mb-lg-2"><b> Contact Us</b></h3>
+                                <a class="text-deco-none" href="https://goo.gl/maps/L3XXRkxmN916BxXF8">
+                                    <h6><i class="bi bi-geo-alt-fill rounded-circle p-1 mx-2"></i>3007 skyway circle
+                                        north Irving Tx 75038</h6>
+                                </a>
+                                <a class="text-deco-none" href="tel:(214) 446-5225">
+                                    <h6><i class="bi bi-phone rounded-circle p-1 mx-2"></i> (214) 446-5225</h6>
+                                </a>
+                                <a>
+                                    <h6><i class="bi bi-envelope-fill rounded-circle p-1 mx-2"></i>
+                                        info@irvingfinearts.com</h6>
+                                </a>
+
+                            </div>
+                            <div class="col-12 col-lg-2 d-block link-line pt-3 pt-lg-0">
+
+                                <h3><b> Explore</b></h3>
+                                <div class="row">
+                                    <div class="col-6 col-lg-12 pt-lg-3">
+                                        <a href="index.html">
+                                            <p> Home</p>
+                                        </a>
+                                        <a href="director.html">
+                                            <p>About Us</p>
+                                        </a>
+                                        <a href="piano.html">
+                                            <p>Music Lessons</p>
+                                        </a>
+                                        <a href="earlyChild.html">
+                                            <p>Programs</p>
+                                        </a>
+
+                                    </div>
+                                    <div class="col-6 col-lg-12">
+                                        <a href="theatre.html">
+                                            <p>Drama</p>
+                                        </a>
+                                        <a href="testimonial.html">
+                                            <p> Testimonials</p>
+                                        </a>
+
+                                        <a href="https://irvingfineartsacademy.opus1.io/w/trial">
+                                            <p>Register Online</p>
+                                        </a>
+                                        <a href="privacy.html">
+                                            <p>Privacy Policy</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-4 d-block schedule">
+                                <h3 class="mt-3 mt-lg-0"><b> Lesson & Office Hours</b></h3>
+                                9:00 AM – 8:30 PM Monday-Thursday <br>
+                                12:00PM - 8:30PM Friday <br>
+                                9:00 AM – 5 PM Saturday <br>
+                                1:00 PM – 5:00 PM Sunday</p>
+                                <h3 class="mt-4 mt-lg-0 mb-lg-2"><b>Location</b></h3>
+                                <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26807.30403620323!2d-97.0013041!3d32.8740211!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864e820df5e11161%3A0xda7bd936af03ac57!2sIrving%20Fine%20Arts%20Academy!5e0!3m2!1sen!2sin!4v1666966034238!5m2!1sen!2sin"                                         width="90%" height="190" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                               
+                            </div>
+                        </div>
+
+                        <hr class="mt-lg-5">
+                        <div class="row mb-5 mb-lg-2">
+                            <div class="col-12 col-lg-4 footer-icon mb-2 order-lg-2  text-center ">
+                                <a href="https://www.facebook.com/rbrmuzik/"> <i
+                                        class="bi bi-facebook rounded-circle p-1 "></i>
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCA8V-uIfkL8SwNrrSTzxmfA"> <i
+                                        class="bi bi-youtube rounded-circle p-1"></i></a>
+                                <a
+                                    href="https://www.instagram.com/rbrmuzik/?utm_source=ig_profile_share&igshid=1uuylct2kp4ti&hl=en">
+                                    <i class="bi bi-instagram rounded-circle p-1"></i> </a>
+                                <a href="https://www.linkedin.com/company/rbr-muzik"> <i
+                                        class="bi bi-linkedin rounded-circle p-1"></i> </a>
+                                <a href=""> <i class="bi bi-twitter text-white rounded-circle p-1"></i> </a>
+                                <a href="https://goo.gl/maps/L3XXRkxmN916BxXF8"> <i
+                                        class="bi bi-geo-alt-fill rounded-circle p-1"></i> </a>
+                            </div>
+                            <div class="col-12 col-lg-8  order-lg-1 rights ">
+                                <p>All Images & text property Copyright @2022 Irving Fine Arts Academy</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- gallary script -->
+    <script>
+        function myFunction(imgs) {
+            // Get the expanded image
+            var expandImg = document.getElementById("expandedImg");
+            // Get the image text
+            var imgText = document.getElementById("imgtext");
+            // Use the same src in the expanded image as the image being clicked on from the grid
+            expandImg.src = imgs.src;
+            // Use the value of the alt attribute of the clickable image as text inside the expanded image
+            imgText.innerHTML = imgs.alt;
+            // Show the container element (hidden with CSS)
+            expandImg.parentElement.style.display = "block";
+        }
+    </script>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+    <script>
+        let menu = document.getElementById("menu");
+        function showMenu() {
+            if (menu.style.display == "none") {
+                menu.style.display = "block";
+
+            }
+            else {
+                menu.style.display = "none";
+            }
+        }
+
+    </script>
+
+
+
+
+
+
+
+    <!-- aos plugin effect -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
